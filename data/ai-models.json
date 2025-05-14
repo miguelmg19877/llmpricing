@@ -1,0 +1,363 @@
+[
+  {
+    "id": "openai-gpt-4",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "GPT-4",
+    "inputCostPer1MTokens": 30.00,
+    "outputCostPer1MTokens": 60.00,
+    "contextWindow": 8192,
+    "features": [
+      "Robust multimodal capabilities for text and images",
+      "Superior reasoning and creative problem-solving",
+      "Advanced summarization and code generation",
+      "Highly reliable and versatile in professional benchmarks",
+      "Premium performance at high computational cost"
+    ]
+  },
+  {
+    "id": "openai-gpt-3.5-turbo",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "GPT-3.5 Turbo",
+    "inputCostPer1MTokens": 1.50,
+    "outputCostPer1MTokens": 2.00,
+    "contextWindow": 4096,
+    "features": [
+      "Cost-effective and fast response times",
+      "Good general-purpose performance",
+      "Efficient for everyday chat and task completion",
+      "Lower computational cost with decent reasoning"
+    ]
+  },
+  {
+    "id": "grok-2",
+    "provider": "Grok (xAI)",
+    "creator": "Grok (xAI)",
+    "modelName": "Grok-2",
+    "inputCostPer1MTokens": 2.00,
+    "outputCostPer1MTokens": 10.00,
+    "contextWindow": 131072,
+    "features": [
+      "Enhanced reasoning for complex code and image tasks",
+      "Extremely large context window for deep analysis",
+      "Competent in web search and document understanding",
+      "Competitive performance in niche benchmarks"
+    ]
+  },
+  {
+    "id": "grok-3",
+    "provider": "Grok (xAI)",
+    "creator": "Grok (xAI)",
+    "modelName": "Grok-3",
+    "inputCostPer1MTokens": null,
+    "outputCostPer1MTokens": null,
+    "contextWindow": 1000000,
+    "features": [
+      "Multimodal performance with advanced reasoning",
+      "State-of-the-art capabilities in creative tasks and coding",
+      "Performs well across diverse benchmarks",
+      "Experimental yet high-level problem solving"
+    ]
+  },
+  {
+    "id": "claude-3-opus",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3 Opus",
+    "inputCostPer1MTokens": 15.00,
+    "outputCostPer1MTokens": 75.00,
+    "contextWindow": 200000,
+    "features": [
+      "Top-tier reasoning and detailed output",
+      "Exceptional accuracy in complex tasks",
+      "Massive context window for in-depth analysis",
+      "Preferred for professional and enterprise use"
+    ]
+  },
+  {
+    "id": "claude-3-sonnet",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3 Sonnet",
+    "inputCostPer1MTokens": 3.00,
+    "outputCostPer1MTokens": 15.00,
+    "contextWindow": 200000,
+    "features": [
+      "Balanced performance with strong reasoning and speed",
+      "Optimized for interactive tasks and content creation",
+      "Solid coding and analytical capabilities",
+      "Harmonious blend of efficiency and accuracy"
+    ]
+  },
+  {
+    "id": "claude-3-haiku",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3 Haiku",
+    "inputCostPer1MTokens": 0.25,
+    "outputCostPer1MTokens": 1.25,
+    "contextWindow": 200000,
+    "features": [
+      "Fast and cost-effective for real-time interactions",
+      "Lightweight with adequate everyday reasoning",
+      "Suitable for quick responses and basic content generation",
+      "Efficient performance with low overhead"
+    ]
+  },
+  {
+    "id": "claude-3.5-sonnet",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3.5 Sonnet",
+    "inputCostPer1MTokens": 3.00,
+    "outputCostPer1MTokens": 15.00,
+    "contextWindow": 200000,
+    "features": [
+      "Significant improvements in coding and multistep reasoning",
+      "Enhanced performance over earlier Claude models",
+      "Robust output for creative and technical tasks",
+      "Critically acclaimed for accuracy and thoughtful responses"
+    ]
+  },
+  {
+    "id": "claude-3.5-haiku",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3.5 Haiku",
+    "inputCostPer1MTokens": 0.80,
+    "outputCostPer1MTokens": 4.00,
+    "contextWindow": 200000,
+    "features": [
+      "Efficient and speedy with a balanced performance",
+      "Strong in coding tasks and short-form responses",
+      "Budget-friendly option within the Claude series",
+      "Ideal for rapid, lower-stakes interactions"
+    ]
+  },
+  {
+    "id": "claude-3.7-sonnet",
+    "provider": "Anthropic",
+    "creator": "Anthropic",
+    "modelName": "Claude 3.7 Sonnet",
+    "inputCostPer1MTokens": 0.25,
+    "outputCostPer1MTokens": 1.25,
+    "contextWindow": 200000,
+    "features": [
+      "Hybrid reasoning model with adjustable 'thinking budget'",
+      "Excels in complex coding and agentic tasks",
+      "Higher accuracy in professional benchmarks",
+      "Highly detailed outputs that may occasionally overthink"
+    ]
+  },
+  {
+    "id": "gpt-4o",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "GPT-4o",
+    "inputCostPer1MTokens": 2.50,
+    "outputCostPer1MTokens": 10.00,
+    "contextWindow": 128000,
+    "features": [
+      "Omni-modal: handles text, audio, and images in real time",
+      "Rapid response with strong multilingual support",
+      "Balanced creative and logical problem solving",
+      "Competitive pricing with robust performance"
+    ]
+  },
+  {
+    "id": "gpt-4o-mini",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "GPT-4o mini",
+    "inputCostPer1MTokens": 0.15,
+    "outputCostPer1MTokens": 0.60,
+    "contextWindow": 128000,
+    "features": [
+      "Highly cost-efficient with an expanded context window",
+      "Optimized for high-volume, real-time processing",
+      "Decent reasoning and creative output for its class",
+      "Ideal for applications where cost is a primary concern"
+    ]
+  },
+  {
+    "id": "o1",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "o1",
+    "inputCostPer1MTokens": 15.00,
+    "outputCostPer1MTokens": 60.00,
+    "contextWindow": 200000,
+    "features": [
+      "Advanced chain-of-thought reasoning for complex problems",
+      "Robust problem solving and coding capabilities",
+      "Premium performance for high-stakes applications",
+      "Designed for enterprise-level challenges"
+    ]
+  },
+  {
+    "id": "o1-mini",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "o1-mini",
+    "inputCostPer1MTokens": 1.10,
+    "outputCostPer1MTokens": 4.40,
+    "contextWindow": 128000,
+    "features": [
+      "Compact version of o1 with efficient reasoning",
+      "Balances speed and accuracy in chain-of-thought tasks",
+      "Lower cost while retaining robust problem solving",
+      "Ideal for agile development environments"
+    ]
+  },
+  {
+    "id": "o3-mini",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "o3-mini",
+    "inputCostPer1MTokens": 1.10,
+    "outputCostPer1MTokens": 4.40,
+    "contextWindow": 200000,
+    "features": [
+      "High throughput with low latency for code generation",
+      "Critically acclaimed for near-error free coding on first attempt",
+      "Excels in programming challenges and real-time tasks",
+      "Optimized for cost-effective, fast responses"
+    ]
+  },
+  {
+    "id": "gpt-4.5",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "GPT-4.5",
+    "inputCostPer1MTokens": 75.00,
+    "outputCostPer1MTokens": 150.00,
+    "contextWindow": 128000,
+    "features": [
+      "Significantly reduced hallucinations for more accurate outputs",
+      "Enhanced natural interaction and broader knowledge base",
+      "Improved performance in programming and creative writing",
+      "Available to select developers with premium capabilities"
+    ]
+  },
+  {
+    "id": "o1-pro",
+    "provider": "OpenAI",
+    "creator": "OpenAI",
+    "modelName": "o1-pro",
+    "inputCostPer1MTokens": 150.00,
+    "outputCostPer1MTokens": 600.00,
+    "contextWindow": 200000,
+    "features": [
+      "Enterprise-grade performance with advanced reasoning",
+      "Extremely capable in complex coding and problem-solving",
+      "Designed for high-stakes, mission-critical applications",
+      "Premium model reflecting superior computational power"
+    ]
+  },
+  {
+    "id": "deepseek-r1",
+    "provider": "DeepSeek AI",
+    "creator": "DeepSeek AI",
+    "modelName": "DeepSeek-R1",
+    "inputCostPer1MTokens": 0.55,
+    "outputCostPer1MTokens": 2.19,
+    "contextWindow": 64000,
+    "features": [
+      "Efficient multimodal processing for text and images",
+      "Competitive in specialized tasks like legal and medical data extraction",
+      "Balanced cost and throughput for enterprise applications",
+      "Praised for accuracy in high-stakes niche use cases"
+    ]
+  },
+  {
+    "id": "deepseek-v3",
+    "provider": "DeepSeek AI",
+    "creator": "DeepSeek AI",
+    "modelName": "DeepSeek-V3",
+    "inputCostPer1MTokens": 0.27,
+    "outputCostPer1MTokens": 1.10,
+    "contextWindow": 128000,
+    "features": [
+      "Enhanced efficiency in multimodal understanding",
+      "Lower cost per token with improved throughput",
+      "Ideal for rapid data extraction and analysis",
+      "Competitively reviewed for specialized enterprise tasks"
+    ]
+  },
+  {
+    "id": "gemini-2.0-flash",
+    "provider": "Google AI",
+    "creator": "Google AI",
+    "modelName": "Gemini 2.0 Flash",
+    "inputCostPer1MTokens": 0.10,
+    "outputCostPer1MTokens": 0.40,
+    "contextWindow": 1048576,
+    "features": [
+      "Advanced multimodal understanding with visual processing",
+      "Strong in creative content generation and dynamic interactions",
+      "Competitive in benchmark tests against top models",
+      "Optimized for interactive applications and design tasks"
+    ]
+  },
+  {
+    "id": "gemini-2.5-pro-experimental",
+    "provider": "Google AI",
+    "creator": "Google AI",
+    "modelName": "Gemini 2.5 Pro Experimental",
+    "inputCostPer1MTokens": 0.00,
+    "outputCostPer1MTokens": 0.00,
+    "contextWindow": 1048576,
+    "features": [
+      "State-of-the-art reasoning with enhanced coding and world knowledge",
+      "Superior performance on complex analytical and creative tasks",
+      "Experimental features aimed at enterprise applications",
+      "Aimed at pushing the boundaries of current AI capabilities"
+    ]
+  },
+  {
+    "id": "gemini-2.0-flash-lite",
+    "provider": "Google AI",
+    "creator": "Google AI",
+    "modelName": "Gemini 2.0 Flash-Lite",
+    "inputCostPer1MTokens": 0.075,
+    "outputCostPer1MTokens": 0.30,
+    "contextWindow": 1048576,
+    "features": [
+      "Lightweight version with essential multimodal support",
+      "Cost-effective and faster for basic tasks",
+      "Simplified interface ideal for quick interactions",
+      "Optimized for low-latency responses"
+    ]
+  },
+  {
+    "id": "deepseek-r1-groq",
+    "provider": "Groq",
+    "creator": "DeepSeek AI",
+    "modelName": "DeepSeek-R1 Llama Distilled",
+    "inputCostPer1MTokens": 0.75,
+    "outputCostPer1MTokens": 0.99,
+    "contextWindow": 128000,
+    "features": [
+      "Efficient multimodal processing for text and images",
+      "Competitive in specialized tasks like legal and medical data extraction",
+      "Balanced cost and throughput for enterprise applications",
+      "Praised for accuracy in high-stakes niche use cases"
+    ]
+  },
+  {
+    "id": "deepseek-r1-groq-2",
+    "provider": "Groq",
+    "creator": "DeepSeek AI",
+    "modelName": "DeepSeek-R1 Qwen Distilled",
+    "inputCostPer1MTokens": 0.69,
+    "outputCostPer1MTokens": 0.69,
+    "contextWindow": 128000,
+    "features": [
+      "Efficient multimodal processing for text and images",
+      "Competitive in specialized tasks like legal and medical data extraction",
+      "Balanced cost and throughput for enterprise applications",
+      "Praised for accuracy in high-stakes niche use cases"
+    ]
+  }
+]
